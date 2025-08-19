@@ -231,6 +231,7 @@ img {
   right: 0;
   bottom: 0;
   width: 260px;
+  right: -15px;
 }
 
 .home__blob {
