@@ -328,19 +328,56 @@ img {
 }
 
 .skills__css {
-  width: 85%;
+  width: 90%;
 }
 
 .skills__js {
-  width: 65%;
+  width: 85%;
 }
 
-.skills__ux {
+.skills__sql {
   width: 85%;
+}
+.skills__dsa {
+  width: 80%;
+}
+.skills__java {
+  width: 95%;
+}
+.skills__python {
+  width: 95%;
+}
+.skills__c_plus {
+  width: 90%;
+}
+.skills__c {
+  width: 90%;
+}
+.skills__node {
+  width: 95%;
+}
+.skills__express {
+  width: 95%;
+}
+.skills__react {
+  width: 90%;
+}
+.skills__next {
+  width: 85%;
+}
+.skills__mysql {
+  width: 85%;
+}
+.skills__mongodb {
+  width: 90%;
 }
 
 .skills__img {
   border-radius: .5rem;
+}
+.rightskill{
+  position: relative;
+  bottom: 80px;
 }
 
 /* ===== WORK =====*/
@@ -474,6 +511,14 @@ img {
   }
 }
 
+
+/* @media  screen and (min-width:575) and (max-width:660) {
+      .home__img {
+        position: relative;
+        top: 140px;
+    }
+} */
+
 @media screen and (min-width: 576px) {
   .home {
     padding: 4rem 0 2rem;
@@ -490,7 +535,7 @@ img {
   }
   .home__img {
     width: 300px;
-    bottom: 25%;
+    bottom: 5%;
   }
   .about__container {
     grid-template-columns: repeat(2, 1fr);
@@ -514,6 +559,7 @@ img {
   .contact__container {
     justify-items: center;
   }
+  
 }
 
 @media screen and (min-width: 768px) {
