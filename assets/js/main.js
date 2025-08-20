@@ -54,3 +54,42 @@ sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{});
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
 sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); 
+
+/*   ===== Send me a message ======*/
+
+
+  const form = document.getElementById("contact-form");
+  const statusText = document.getElementById("form-status");
+  const submitBtn = document.getElementById("submit-btn");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    statusText.textContent = "⏳ Sending...";
+    statusText.style.color = "#ff9800";
+    submitBtn.disabled = true;
+
+    const formData = new FormData(form);
+
+    fetch(form.action, {
+      method: form.method,
+      body: formData,
+      headers: { 'Accept': 'application/json' }
+    })
+    .then(response => {
+      if (response.ok) {
+        statusText.textContent = "✅ Message sent successfully!";
+        statusText.style.color = "green";
+        form.reset();
+      } else {
+        statusText.textContent = "⚠️ Something went wrong.";
+        statusText.style.color = "red";
+      }
+      submitBtn.disabled = false;
+    })
+    .catch(error => {
+      statusText.textContent = "❌ Error! Try again later.";
+      statusText.style.color = "red";
+      submitBtn.disabled = false;
+    });
+  });
+
