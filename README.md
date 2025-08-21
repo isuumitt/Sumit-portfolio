@@ -56,14 +56,7 @@ Here are some previews of my portfolio:
 ---
 
 ## 🔗 Live Demo
-👉 [Click here to view my Portfolio](https://isuumitt.github.io/Sumit-portfolio/)
-
-(if show any type or error then reopen in incognito tab )
-
- 
-
-## 🔗 Or
-👉 [Try this ](https://heartfelt-valkyrie-95557d.netlify.app)
+👉 [View Live](https://heartfelt-valkyrie-95557d.netlify.app)
 
 ---
 
