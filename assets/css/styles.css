@@ -562,6 +562,23 @@ textarea{
     }
 } */
 
+ .prof{
+  font-size: 3.0rem;
+ }
+
+/* @media  screen and (min-width:770) and (max-width:855) {
+      .prof {
+      
+font-size: 1.5rem
+    }
+}
+@media  screen and (min-width:570) and (max-width:700) {
+      .prof {
+        /* position: relative;
+        top: 140px; */
+/* font-size: 1.5rem */
+  
+
 @media screen and (min-width: 576px) {
   .home {
     padding: 4rem 0 2rem;
@@ -602,7 +619,9 @@ textarea{
   .contact__container {
     justify-items: center;
   }
-  
+  .prof{
+    font-size: 2rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -660,6 +679,9 @@ textarea{
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
   }
+  .prof{
+    font-size: 2.0rem;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -672,5 +694,8 @@ textarea{
   }
   .home__img {
     width: 450px;
+  }
+  .prof{
+    font-size: 3.0rem;
   }
 }
