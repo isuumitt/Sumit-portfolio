@@ -61,8 +61,8 @@ Here are some previews of my portfolio:
 ---
 
 ## 📬 Contact
-- **LinkedIn:** [Your LinkedIn](https://www.instagram.com/isuumitt/)
-- **GitHub:** [Your GitHub](https://github.com/isuumitt)  
+- **LinkedIn:** [LinkedIn](https://www.instagram.com/isuumitt/)
+- **GitHub:** [GitHub](https://github.com/isuumitt)  
 - **Email:** kumarsumit48338@gmail.com
 
 ---
